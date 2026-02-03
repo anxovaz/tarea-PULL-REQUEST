@@ -16,7 +16,7 @@ O usuario pode buscar notas que conteñan unha palabra clave.
 
 def ejercicio1():
     with open('./archivos_boletin11/ejercicio1.txt',"w") as f:
-        inputUsuario = input("Ingrese su nota: ")
+        inputUsuario = str(input("Ingrese su nota: "))
         f.write(inputUsuario)
         f.close()
 
